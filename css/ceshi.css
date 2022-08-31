@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* IE6、7专有 */
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 42px;
+    /* background: lightblue; */
+    margin: 15px auto;
+}
+
+.logo {
+    float: left;
+    background-image: url(../images/logo1.png);
+    height: 42px;
+    width: 198px;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    float: left;
+    margin-left: 60px;
+}
+
+.menu ul li {
+    float: left;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px lightblue solid;
+    color: aqua;
+}
+
+.serch {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 120px;
+}
+
+.serch input {
+    float: left;
+    border: 1px solid #00a4ff;
+    width: 345px;
+    height: 40 px;
+    border-right: 0;
+    line-height: 40px;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.serch button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-color: #00a4ff;
+    background-image: url(../images/sico.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.user {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.banner {
+    height: 420px;
+    background-image: url(../images/banner2.png);
+    background-position: center;
+    margin-top: 21px;
+}
+
+.left {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-image: url(../images/bbg.png);
+}
+
+.left ul li a {
+    font-size: 14px;
+    color: white;
+}
+
+.left ul li {
+    padding-left: 20px;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.left ul li span {
+    float: right;
+}
+
+.left ul li a:hover {
+    color: #00a4ff;
+}
+
+.right {
+    float: right;
+    width: 230px;
+    /* px写错导致宽度失效 */
+    height: 400px;
+    /* background-color: #00a4ff; */
+    margin-top: 50px;
+}
+
+.right h2 {
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 48px;
+}
+
+.bd {
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.bd ul li {
+    padding: 14px 0;
+}
+
+.bd ul li h4 {
+    font-size: 16px;
+}
+
+.bd ul li span {
+    font-size: 14px;
+}
+
+.bd ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.bd .more {
+    display: block;
+    height: 38px;
+    border: #00a4ff 1px solid;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 38px;
+    color: #00a4ff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* 精品推荐 */
+.goods {
+    height: 60px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .2);
+    /* 水平；垂直距离，模糊距离，颜色 */
+}
+
+.liebiao ul li h3 {
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.liebiao ul li {
+    float: left;
+    width: 125px;
+    text-align: center;
+    margin-top: 20px;
+    /* margin-left: 35px; */
+    line-height: 16px;
+    border-left: 1px solid #bfbfbf;
+}
+
+.xiugai a {
+    float: right;
+    margin: 20px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+
+.box {
+    margin-top: 35px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 20px;
+}
+
+.box-hd a {
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.box-bd ul li {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 230px;
+    height: 270px;
+}
+
+.box-bd ul li:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.box-bd ul li img {
+    display: block;
+    width: 230px;
+}
+
+.box-bd-pbg {
+    width: 210px;
+    padding: 25px 10px;
+    background-color: white;
+}
+
+.box-bd-pbg h4 {
+    font-size: 14px;
+}
+
+.box-bd-pbg p {
+    color: orangered;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.box-bd-pbg span {
+    color: #bfbfbf;
+    margin-left: 5px;
+}
+
+/* 精品结束 */
+/* footer开始 */
+.footer {
+    height: 250px;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer-left {
+    float: left;
+    width: 600px;
+}
+
+.footer-left p {
+    margin: 20px 0 15px 0;
+    font-size: 12px;
+}
+
+.footer-right {
+    float: right;
+    width: 580px;
+}
+
+.footer-right ul {
+    float: right;
+    width: 100px;
+    margin-left: 20px;
+}
